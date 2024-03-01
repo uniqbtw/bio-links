@@ -2,161 +2,124 @@
 const webLinks = [
     // All social profile
     {
-        title: 'Twitter',
-        url: 'https://twitter.com/realvjy',
+        title: 'YouTube',
+        url: 'https://wta.su/youtube',
         type: 'social',
-        icon: '/twitter.svg',
+        icon: '/youtube-solid.svg',
         on: true
     },
     {
         title: 'Instagram',
-        url: 'https://instagram.com/realvjy',
+        url: 'https://wta.su/instagram',
         type: 'social',
         icon: '/insta.svg',
         on: true
     },
     {
-        title: 'Dribbble',
-        url: 'https://dribbble.com/realvjy',
+        title: 'Discord',
+        url: 'https://wta.su/discord',
         type: 'social',
-        icon: '/dribbble.svg',
-        on: false
-    },
-    {
-        title: 'Medium',
-        url: 'https://medium.com/@realvjy',
-        type: 'social',
-        icon: '/medium.svg',
-        on: false
-    },
-    {
-        title: 'Github',
-        url: 'https://github.com/realvjy',
-        type: 'social',
-        icon: '/github.svg',
+        icon: '/discord.svg',
         on: true
     },
     {
-        title: 'Youtube',
-        url: 'https://youtube.com/realvjy',
+        title: 'Steam',
+        url: 'https://wta.su/steam',
         type: 'social',
-        icon: '/youtube.svg',
-        on: false
-    },
-    {
-        title: 'Figma',
-        url: 'https://figma.com/@realvjy',
-        type: 'social',
-        icon: '/figma.svg',
+        icon: '/steam.svg',
         on: true
     },
     {
-        title: 'Behance',
-        url: 'https://behance.net/realvjy',
+        title: 'Twitter',
+        url: 'https://wta.su/twitter',
         type: 'social',
-        icon: '/behance.svg',
-        on: false
-    },
-    {
-        title: 'Linkedin',
-        url: 'https://www.linkedin.com/in/realvjy/',
-        type: 'social',
-        icon: '/linkedin.svg',
-        on: false
-    },
-    {
-        title: 'Mastodon',
-        url: 'https://mastodon.online/@realvjy',
-        type: 'social',
-        icon: '/mastodon.svg',
+        icon: '/x-twitter.svg',
         on: true
     },
     {
-        title: 'Hive Social',
-        url: 'https://www.hivesocial.app/?@realvjy',
+        title: 'Spotify Playlist',
+        url: 'https://wta.su/spotify',
         type: 'social',
-        icon: '/hive.svg',
-        on: false
-    },
-    {
-        title: 'Post',
-        url: 'https://www.post.news/realvjy',
-        type: 'social',
-        icon: '/post.svg',
-        on: false
-    },
-    {
-        title: 'foundation',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/foundation.svg',
-        on: false
-    },
-    {
-        title: 'opensea',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/opensea.svg',
-        on: false
-    },
-    {
-        title: 'new collection',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/opensea.svg',
-        on: false
-    },
-    // Install section
-    {
-        title: 'Use this template',
-        url: 'https://github.com/realvjy/nxt-lnk/generate',
-        type: 'install',
-        icon: '/use.png',
-        on: true
-    },
-    {
-        title: 'Deploy on Vercel',
-        url: 'https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk',
-        type: 'install',
-        icon: '/vercel.svg',
-        on: true
-    },
-    {
-        title: 'Documentation',
-        url: 'https://github.com/realvjy/nxt-lnk#nxt-lnk',
-        type: 'install',
-        icon: '/doc.png',
-        on: true
-    },
-    {
-        title: 'Github',
-        url: 'https://github.com/realvjy/nxt-lnk',
-        type: 'install',
-        icon: '/github-fill.svg',
+        icon: '/spotify.svg',
         on: true
     },
 
     {
-        title: 'Buy Me a Coffee',
-        url: 'https://www.buymeacoffee.com/realvjy',
-        type: 'other',
-        icon: '/bmc.png',
+        title: 'SoundCloud',
+        url: 'https://wta.su/soundcloud',
+        type: 'social',
+        icon: '/soundcloud.svg',
+        on: true
+    },
+
+    
+    // SUPPORT
+    {
+        title: 'Latest edit',
+        url: 'https://youtu.be/jZuMUxqN68U',
+        type: 'install',
+        icon: '/video-solid.svg',
+        on: true
+    },
+
+    // SOCIALS
+    {
+        title: 'YouTube',
+        url: 'https://wta.su/youtube',
+        type: 'nft',
+        icon: '/youtube.png',
+        on: true
+    },
+    {
+        title: 'Instagram',
+        url: 'https://wta.su/instagram',
+        type: 'nft',
+        icon: '/instagram.png',
+        on: true
+    },
+    {
+        title: 'Discord',
+        url: 'https://wta.su/discord',
+        type: 'nft',
+        icon: '/discord.png',
+        on: true
+    },
+    {
+        title: 'Steam',
+        url: 'https://wta.su/steam',
+        type: 'nft',
+        icon: '/steam.png',
+        on: true
+    },
+    {
+        title: 'Twitter',
+        url: 'https://wta.su/twitter',
+        type: 'nft',
+        icon: '/twitter.png',
+        on: true
+    },
+    {
+        title: 'Spotify Playlist',
+        url: 'https://wta.su/spotify',
+        type: 'nft',
+        icon: '/spotify.png',
         on: true
     },
 
     {
-        title: 'link demo',
-        url: 'https://vjy.me/lnk',
-        type: 'other',
-        icon: '/vjy.png',
+        title: 'SoundCloud',
+        url: 'https://wta.su/soundcloud',
+        type: 'nft',
+        icon: '/soundcloud.png',
         on: true
     },
 
+    // EXTRA
     {
-        title: 'maker website',
-        url: 'https://vjy.me',
+        title: 'Join Discord to get access',
+        url: 'https://wta.su/ethernal',
         type: 'other',
-        icon: '/vjy.png',
+        icon: '/right-to-bracket-solid.svg',
         on: true
     },
 ];

@@ -1,0 +1,8 @@
+services:
+  links:
+    container_name: Socials
+    build: .
+    ports:
+      - "2222:3000"
+    volumes:
+     - /DATA/projects/links:/links

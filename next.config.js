@@ -9,9 +9,13 @@ const nextConfig = {
     optimizeFonts: false, async rewrites() {
         return [
             {
-                source: '/(links|lnk|l)',
+                source: '/(uniq|@uniqbtw|uniqbtw|@uniq)',
                 destination: '/',
             },
+            {
+                source: '/(@haunted|haunted|haunted_sad|@haunted_sad)',
+                destination: '/haunted'
+            }
         ]
     },
 }

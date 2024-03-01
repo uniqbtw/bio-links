@@ -2,12 +2,12 @@ import { useState, useEffect } from "react"
 import useDarkMode from "use-dark-mode"
 import Head from "next/head";
 import { ThemeProvider } from "styled-components";
-import Layout from "../components/Layout";
-import GlobalStyle from "../styles/GlobalStyle";
-import { darkTheme, lightTheme } from "../styles/theme.config";
+import Layout from "../../haunted/components/Layout";
+import GlobalStyle from "../../styles/GlobalStyle";
+import { darkTheme, lightTheme } from "../../styles/theme.config";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import { DefaultSeo } from 'next-seo';
-import SEO from '../next-seo.config';
+import SEO from '../../next-seo.config';
 
 function MyApp({ Component, pageProps }) {
     const darkMode = useDarkMode(true, { storageKey: null, onChange: null })
@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }) {
                 <GlobalStyle />
                 <Layout>
                     <DefaultSeo
-                        canonical={SEO.openGraph.url}
+                        canonical={SEO.haunted.url}
                         {...SEO}
                         additionalMetaTags={[{
                             name: 'keywords',
@@ -40,15 +40,15 @@ function MyApp({ Component, pageProps }) {
                         },
                         {
                             name: 'twitter:image',
-                            content: SEO.openGraph.images[0].url
+                            content: SEO.haunted.images[0].url
                         },
                         {
                             name: 'twitter:title',
-                            content: SEO.openGraph.title,
+                            content: SEO.haunted.title,
                         },
                         {
                             name: 'twitter:description',
-                            content: SEO.openGraph.description,
+                            content: SEO.haunted.description,
                         },
                         {
                             httpEquiv: 'x-ua-compatible',

@@ -7,8 +7,8 @@ export default function Home() {
   const page = {
     title: seoData.openGraph.title,
     excerpt: 'home',
-    slug: '/',
-    coverImage: 'https://vjy.me/preview.jpg'
+    slug: '/uniqbtw',
+    coverImage: 'https://links.ethernal.su/preview.png'
   };
   return (
     <>
